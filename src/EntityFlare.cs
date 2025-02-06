@@ -9,9 +9,11 @@ namespace Flares;
 
 public class EntityFlare : EntityProjectile
 {
-    public override void OnCollided()        // Spawn a Flare block
+    public override void OnCollided()        // Spawn a Flare block on collision with block
     {
-        EntityPos entityPosition = SidedPos;
+        EntityPos entityPosition = Pos;
+
+        bool stuck = false;
 
         int x = (int)entityPosition.X;
         int y = (int)entityPosition.Y;
@@ -27,7 +29,7 @@ public class EntityFlare : EntityProjectile
 
     public override void OnCollideWithLiquid()
     {
-       // eventually add in some kind of extinguish effects (maybe pull from torches?)
+       // eventually add in some kind of extinguish effects
         Die();
     }
 }
