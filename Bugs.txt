@@ -1,3 +1,0 @@
-Sometimes when flares are thrown, the sand doesn't spawn and the flare sticks to the spot it hit.
-
-			Maybe remove the flare on blockset?
