@@ -1,0 +1,58 @@
+{
+    "code": "flare",
+    "class": "EntityFlare",
+    "hitboxSize": {
+        "x": 0.125,
+        "y": 0.125
+    },
+    "attributes": {
+        "isProjectile": true
+    },
+    /*"transientPropsbyType": {
+            "*-flare-lit-*": {
+                "convertFrom": "flare-lit-*",
+                "convertTo": "something??? ruins grime?",
+                "inGameHours": "5"
+            }
+        }
+        */
+    "client": {
+        "renderer": "Shape",
+        "shape": {
+            "base": "item/flare"
+            //"offsetX": -0.8125
+        },
+        "texture": {
+            "base": "item/redflare"
+        },
+        "behaviors": [
+            {
+                "code": "passivephysics",
+                "groundDragFactor": 0,
+                "airDragFactor": 0.25,
+                "gravityFactor": 0.75
+            },
+            { "code": "interpolateposition" }
+        ]
+    },
+
+    "server": {
+        "behaviors": [
+            {
+                "code": "passivephysics",
+                "groundDragFactor": 1,
+                "airDragFactor": 0.25,
+                "gravityFactor": 0.75
+            },
+            {
+                "code": "despawn",
+                "minSeconds": 600
+            },
+            {
+                "glowlevel": "128"
+            }
+        ]
+    },
+
+    "sounds": {} //fuse sound, pos from blasting bombs
+}

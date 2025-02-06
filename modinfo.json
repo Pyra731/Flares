@@ -1,0 +1,12 @@
+{
+    "type": "code",
+    "modid": "flares",
+    "name": "Flares",
+    "authors": [ "Pyra4", "Shame" ],
+    "description": "Create and use flares",
+    "version": "0.0.2",
+    "dependencies": {
+        "game": "*"
+    }
+
+}

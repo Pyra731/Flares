@@ -1,0 +1,3 @@
+Create Flare Block that spawns
+		add effects eg: smoke, light, particals, sparks
+		config to behave like sand/gravel and fall on impact w/ wall
