@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Properties
+/Bugs.txt
+/ToDo.txt
+/flaresModSystem.cs
+/.gitignore
