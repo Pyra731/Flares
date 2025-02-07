@@ -10,7 +10,7 @@ namespace Flares
         {
             base.Start(api);
 
-            api.RegisterEntity("EntityFlare", typeof(EntityFlare));
+            api.RegisterEntity("EntityFlare", typeof(Flares));
             api.RegisterItemClass("ItemFlare", typeof(ItemFlare));
 
             api.World.Logger.Event("started 'Flares' mod");

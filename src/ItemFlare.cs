@@ -68,7 +68,7 @@ public class ItemFlare : Item
         }
         byEntity.World.PlaySoundAt(new AssetLocation("sounds/player/throw"), byEntity, byPlayer, randomizePitch: false, 8f);
         EntityProperties entityType = byEntity.World.GetEntityType(Code);
-        EntityProjectile enpr = byEntity.World.ClassRegistry.CreateEntity(entityType) as EntityProjectile;
+        EntityThrownStone enpr = byEntity.World.ClassRegistry.CreateEntity(entityType) as EntityThrownStone;
         enpr.FiredBy = byEntity;
         enpr.Damage = 0;
         enpr.ProjectileStack = stack;
