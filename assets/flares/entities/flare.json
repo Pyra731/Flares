@@ -28,7 +28,7 @@
         "behaviors": [
             {
                 "code": "passivephysics",
-                "groundDragFactor": 0,
+                "groundDragFactor": 1,
                 "airDragFactor": 0.25,
                 "gravityFactor": 0.75
             },
