@@ -47,9 +47,6 @@
             {
                 "code": "despawn",
                 "minSeconds": 600
-            },
-            {
-                "glowlevel": "128"
             }
         ]
     },
