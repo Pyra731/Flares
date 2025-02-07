@@ -8,20 +8,21 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"base": "item/redflare"
 	},
 	"elements": [
 		{
 			"name": "Flare",
-			"from": [ 8.0, 0.0, 8.0 ],
-			"to": [ 9.0, 8.0, 9.0 ],
-			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"from": [ 4.0, 0.0, 7.0 ],
+			"to": [ 12.0, 1.0, 8.0 ],
+			"rotationOrigin": [ 4.0, 0.0, 7.0 ],
 			"faces": {
-				"north": { "texture": "#redflare", "uv": [ 0.0, 0.0, 1.0, 8.0 ] },
-				"east": { "texture": "#redflare", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "windMode": [-1,-1,-1,-1] },
-				"south": { "texture": "#redflare", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "windMode": [-1,-1,-1,-1] },
-				"west": { "texture": "#redflare", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "windMode": [-1,-1,-1,-1] },
-				"up": { "texture": "#redflare", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "rotation": 270, "autoUv": false },
-				"down": { "texture": "#redflare", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+				"north": { "texture": "#redflare", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "rotation": 90 },
+				"east": { "texture": "#redflare", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"south": { "texture": "#redflare", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "rotation": 270 },
+				"west": { "texture": "#redflare", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"up": { "texture": "#redflare", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "rotation": 270 },
+				"down": { "texture": "#redflare", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "rotation": 90 }
 			}
 		}
 	]}
