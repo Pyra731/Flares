@@ -2,7 +2,6 @@
     "code": "flare",
     "class": "ItemFlare",
     "Maxstacksize": "16",
-    "lightHsv": [ 0, 6, 30 ],
     "creativeinventory": {
         "general": [ "*" ],
         "Flares": [ "*" ]

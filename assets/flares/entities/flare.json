@@ -5,17 +5,6 @@
         "x": 0.125,
         "y": 0.125
     },
-    "attributes": {
-        "isProjectile": true
-    },
-    /*"transientPropsbyType": {
-            "*-flare-lit-*": {
-                "convertFrom": "flare-lit-*",
-                "convertTo": "something??? ruins grime?",
-                "inGameHours": "5"
-            }
-        }
-        */
     "client": {
         "renderer": "Shape",
         "shape": {
