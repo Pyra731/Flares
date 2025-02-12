@@ -1,0 +1,154 @@
+{
+    "code": "flaremold",
+    "maxstacksize": "8",
+    "blockmaterial": "Ceramic",
+    "classByType": {
+        "flaremold-raw": "Block",
+        "flaremold-burned": "BlockToolMold"
+    },
+    "storageType": "64",
+    "entityClassByType": {
+        "flaremold-burned": "ToolMold"
+    },
+    "behaviorsByType": {
+        "*-raw": [
+            {
+                "name": "GroundStorable",
+                "properties": { "layout": "SingleCenter" }
+            },
+            {
+                "name": "Unplaceable",
+                "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility"
+            },
+            { "name": "RightClickPickup" }
+        ],
+        "*": [
+            { "name": "Lockable" },
+            { "name": "UnstableFalling" },
+            { "name": "HorizontalOrientable" }
+        ]
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "Flares": [ "*" ]
+    },
+    "collisionbox": {
+        "x1": 0.0625,
+        "y1": 0,
+        "z1": 0.0625,
+        "x2": 0.9375,
+        "y2": 0.125,
+        "z2": 0.9375
+    },
+    "selectionbox": {
+        "x1": 0.0625,
+        "y1": 0,
+        "z1": 0.0625,
+        "x2": 0.9375,
+        "y2": 0.125,
+        "z2": 0.9375
+
+    },
+    "variantgroups": [
+        {
+            "code": "materialtype",
+            "states": [ "raw", "burned" ]
+        }
+    ],
+    "texturesByType": {
+        "flaremold-raw": {
+            "all": {
+                "base": "game:block/clay/blueclay"
+            }
+        },
+        "flaremold-burned": {
+            "all": {
+                "base": "game:block/clay/ceramic"
+            }
+        }
+    },
+    "shape": {
+        "base": "blocks/flaremold"
+    },
+    "attributesByType": {
+        "flaremold-burned": {
+            "requiredUnits": 100,
+            "moldrackable": true,
+            "onmoldrackTransform": { "rotation": { "z": 90 } },
+            "fillHeight": 1,
+            "drop": {
+                "type": "item",
+                "code": "flare-{metal}",
+                "quantity": 5
+            }
+        }
+    },
+    "combustiblePropsByType": {
+        "flaremold-raw": {
+            "meltingPoint": 600,
+            "meltingDuration": 45,
+            "smeltedRatio": 1,
+            "smeltingType": "fire",
+            "smeltedStack": {
+                "type": "block",
+                "code": "flaremold-burned"
+            },
+            "requiresContainer": false
+        }
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 0,
+            "y": 3,
+            "z": 0
+        },
+        "rotation": {
+            "x": -30,
+            "y": -44,
+            "z": -8
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+        },
+        "scale": 1.31
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -1,
+            "y": -0.6,
+            "z": -1.05
+        },
+        "rotation": {
+            "x": -87,
+            "y": 9,
+            "z": 4
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.125,
+            "z": 0.5
+        },
+        "scale": 0.5
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": -45,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 2.2
+    }
+
+}
