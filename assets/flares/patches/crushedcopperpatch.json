@@ -1,0 +1,30 @@
+[
+    {
+        "op": "add",
+        "path": "/crushingPropsByType/nugget-nativecopper",
+        "value": {
+            "crushedStack": {
+                "type": "item",
+                "code": "flares:crushedcopper",
+                "stacksize": 1
+            },
+            "hardnessTier": 1
+        },
+        "file": "game:itemtypes/resource/nugget.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/crushingPropsByType/nugget-malachite",
+        "value": {
+            "crushedStack": {
+                "type": "item",
+                "code": "flares:crushedcopper",
+                "stacksize": 1
+            },
+            "hardnessTier": 1
+        },
+        "file": "game:itemtypes/resource/nugget.json",
+        "side": "Server"
+    }
+]
