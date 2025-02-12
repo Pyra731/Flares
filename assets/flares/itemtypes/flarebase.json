@@ -1,0 +1,82 @@
+{
+    "code": "flarebase",
+    "maxstacksize": "64",
+    "heldTpIdleAnimation": "holdbothhands",
+    "heldRightReadyAnimation": "holdbothhands",
+    "creativeinventory": {
+        "general": [ "*" ],
+        "Flares": [ "*" ]
+    },
+    "dimensions": {
+        "width": 0.0625,
+        "height": 0.0625,
+        "length": 0.0625
+    },
+    "storageFlags": 5,
+    "variantgroups": [
+        {
+            "code": "colour",
+            "states": [ "yellow", "blue", "red", "white" ]
+        }
+    ],
+    "shape": { "base": "game:item/food/flour" },
+    "texturesByType": {
+        "flarebase-yellow": {
+            "all": {
+                "base": "item/flarebase/yellowbase"
+            }
+        },
+        "flarebase-blue": {
+            "all": {
+                "base": "item/flarebase/bluebase"
+            }
+        },
+        "flarebase-red": {
+            "all": {
+                "base": "item/flarebase/redbase"
+            }
+        },
+        "flarebase-white": {
+            "all": {
+                "base": "item/flarebase/whitebase"
+            }
+        }
+    },
+    "combustiblePropsByType": {
+        "*-yellow": {
+            "meltingPoint": 200,
+            "meltingDuration": 10,
+            "smeltedRatio": 1,
+            "smeltedStack": {
+                "type": "item",
+                "code": "flarebase-yellow"
+            }
+        },
+        "*-blue": {
+            "meltingPoint": 200,
+            "meltingDuration": 10,
+            "smeltedRatio": 1,
+            "smeltedStack": {
+                "type": "item",
+                "code": "flarebase-blue"
+            }
+        },
+        "*-red": {
+            "meltingPoint": 200,
+            "meltingDuration": 10,
+            "smeltedRatio": 1,
+            "smeltedStack": {
+                "type": "item",
+                "code": "flarebase-red"
+            }
+        },
+        "*-white": {
+            "meltingPoint": 200,
+            "meltingDuration": 10,
+            "smeltedRatio": 1,
+            "smeltedStack": {
+                "type": "item",
+                "code": "flarebase-white"
+            }
+        }
+    }}
