@@ -1,0 +1,21 @@
+{
+    "ingredients": [
+        {
+            "type": "item",
+            "code": "flarebase-red",
+            "minratio": 0.4,
+            "maxratio": 0.6
+        },
+        {
+            "type": "item",
+            "code": "game:resin",
+            "minratio": 0.4,
+            "maxratio": 0.6
+        }
+    ],
+    "output": {
+        "type": "item",
+        "code": "flaremix-red"
+    }
+}
+    
