@@ -4,7 +4,7 @@
     "name": "Flares",
     "authors": [ "Pyra4", "Shame" ],
     "description": "Create and use flares",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "dependencies": {
         "game": "*"
     }
