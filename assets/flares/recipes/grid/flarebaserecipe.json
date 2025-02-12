@@ -1,0 +1,90 @@
+[
+	{
+		"name": "Yellow base",
+		"shapeless": true,
+		"ingredientPattern": "C,S",
+		"width": 1,
+		"height": 2,
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:powder-charcoal"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:salt"
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "flarebase-yellow",
+			"quantity": 1
+		}
+	},
+	{
+		"name": "Blue base",
+		"shapeless": true,
+		"ingredientPattern": "C,S",
+		"width": 1,
+		"height": 2,
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:powder-charcoal"
+			},
+			"S": {
+				"type": "item",
+				"code": "crushedcopper"
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "flarebase-blue",
+			"quantity": 1
+		}
+	},
+	{
+		"name": "Red base",
+		"shapeless": true,
+		"ingredientPattern": "C,S",
+		"width": 1,
+		"height": 2,
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:powder-charcoal"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:crushed-iron"
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "flarebase-red",
+			"quantity": 1
+		}
+	},
+	{
+		"name": "White base",
+		"shapeless": true,
+		"ingredientPattern": "C,S",
+		"width": 1,
+		"height": 2,
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:powder-charcoal"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:crushed-ilmenite"
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "flarebase-white",
+			"quantity": 1
+		}
+	}
+]
