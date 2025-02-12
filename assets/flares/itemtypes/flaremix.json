@@ -1,0 +1,19 @@
+{
+    "code": "flaremix",
+    "variantgroups": [
+        {
+            "code": "colour",
+            "states": [ "yellow", "blue", "red", "white" ]
+        }
+    ],
+    "storageFlags": "128",
+    "combustibleProps": {
+        "meltingPoint": 200,
+        "meltingDuration": 10,
+        "smeltedRatio": 1,
+        "smeltedStack": {
+            "type": "item",
+            "code": "flaremix-{colour}"
+        }
+    }
+}
