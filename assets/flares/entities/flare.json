@@ -1,18 +1,48 @@
 {
     "code": "flare",
     "class": "EntityFlare",
+    "entityClassByType": {
+        "*-yellow": "EntityFlareYellow",
+        "*-blue": "EntityFlareBlue",
+        "*-red": "EntityFlareRed",
+        "*-white": "EntityFlareWhite"
+    },
+    "variantgroups": [
+        {
+            "code": "metal",
+            "states": [ "yellow", "blue", "red", "white" ]
+        }
+    ],
     "hitboxSize": {
         "x": 0.125,
         "y": 0.125
     },
     "client": {
         "renderer": "Shape",
+        "texturesByType": {
+            "flare-yellow": {
+                "all": {
+                    "base": "item/yellowflare"
+                }
+            },
+            "flare-blue": {
+                "all": {
+                    "base": "item/blueflare"
+                }
+            },
+            "flare-red": {
+                "all": {
+                    "base": "item/redflare"
+                }
+            },
+            "flare-white": {
+                "all": {
+                    "base": "item/whiteflare"
+                }
+            }
+        },
         "shape": {
             "base": "item/flare"
-            //"offsetX": -0.8125
-        },
-        "texture": {
-            "base": "item/redflare"
         },
         "behaviors": [
             {
